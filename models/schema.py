@@ -69,6 +69,7 @@ class FactSales(Base):
     
     row_id = Column(Integer, primary_key=True)
     order_id = Column(String, nullable=False)
+    
     # Foreign keys to dimension tables
     customer_id = Column(String, ForeignKey("dim_customer.customer_id"))
     product_id = Column(String, ForeignKey("dim_product.product_id"))
@@ -91,4 +92,4 @@ class FactSales(Base):
     
     def __repr__(self):
         return f"<Sale {self.order_id}>"
-
+    

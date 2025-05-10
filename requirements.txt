@@ -1,0 +1,8 @@
+pandas
+sqlalchemy
+psycopg2-binary
+schedule
+plotly
+python-dotenv
+numpy
+loguru

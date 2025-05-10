@@ -1,12 +1,12 @@
 from sqlalchemy import create_engine
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import declarative_base 
 from sqlalchemy.orm import sessionmaker
+from urllib.parse import quote_plus
 from loguru import logger
 import os
 
-# Environment-based or hardcoded configuration
-DB_USER = os.getenv("DB_USER", "your_username")
-DB_PASSWORD = os.getenv("DB_PASSWORD", "your_password")
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = quote_plus(os.getenv("DB_PASSWORD"))  # encode special characters
 DB_HOST = os.getenv("DB_HOST", "localhost")
 DB_PORT = os.getenv("DB_PORT", "5432")
 DB_NAME = os.getenv("DB_NAME", "retail_db")
