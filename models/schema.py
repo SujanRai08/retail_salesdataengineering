@@ -2,7 +2,7 @@ from sqlalchemy import Column,String,Integer,Float,Date,ForeignKey
 from sqlalchemy.orm import relationship
 from config.database import Base
 
-class DimCustimer(Base):
+class DimCustomer(Base):
     """dimension table for customer information"""
     __tablename__ = "dim_customer"
 
