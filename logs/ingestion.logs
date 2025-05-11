@@ -1,0 +1,687 @@
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Starting ETL pipeline execution
+ __main__ - INFO - Starting ETL pipeline execution
+ __main__ - INFO - Starting ETL pipeline execution
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_000314.csv
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_000314.csv
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_000314.csv
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - ERROR - Error during data cleaning: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ etl.transforming - ERROR - Error during data cleaning: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ etl.transforming - ERROR - Error during data cleaning: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ etl.transforming - ERROR - Data transformation workflow failed: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ etl.transforming - ERROR - Data transformation workflow failed: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ etl.transforming - ERROR - Data transformation workflow failed: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ __main__ - ERROR - Pipeline failed at transformation step
+ __main__ - ERROR - Pipeline failed at transformation step
+ __main__ - ERROR - Pipeline failed at transformation step
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Starting ETL pipeline execution
+ __main__ - INFO - Starting ETL pipeline execution
+ __main__ - INFO - Starting ETL pipeline execution
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_000652.csv
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_000652.csv
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_000652.csv
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - ERROR - Error during data cleaning: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ etl.transforming - ERROR - Error during data cleaning: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ etl.transforming - ERROR - Error during data cleaning: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ etl.transforming - ERROR - Data transformation workflow failed: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ etl.transforming - ERROR - Data transformation workflow failed: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ etl.transforming - ERROR - Data transformation workflow failed: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ __main__ - ERROR - Pipeline failed at transformation step
+ __main__ - ERROR - Pipeline failed at transformation step
+ __main__ - ERROR - Pipeline failed at transformation step
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Starting ETL pipeline execution
+ __main__ - INFO - Starting ETL pipeline execution
+ __main__ - INFO - Starting ETL pipeline execution
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_000911.csv
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_000911.csv
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_000911.csv
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - ERROR - Error during data cleaning: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ etl.transforming - ERROR - Error during data cleaning: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ etl.transforming - ERROR - Error during data cleaning: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ etl.transforming - ERROR - Data transformation workflow failed: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ etl.transforming - ERROR - Data transformation workflow failed: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ etl.transforming - ERROR - Data transformation workflow failed: time data "15/04/2018" doesn't match format "%m/%d/%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+ __main__ - ERROR - Pipeline failed at transformation step
+ __main__ - ERROR - Pipeline failed at transformation step
+ __main__ - ERROR - Pipeline failed at transformation step
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Starting ETL pipeline execution
+ __main__ - INFO - Starting ETL pipeline execution
+ __main__ - INFO - Starting ETL pipeline execution
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_001503.csv
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_001503.csv
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_001503.csv
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - INFO - Data cleaning completed. Records: 9800 -> 9800
+ etl.transforming - INFO - Data cleaning completed. Records: 9800 -> 9800
+ etl.transforming - INFO - Data cleaning completed. Records: 9800 -> 9800
+ etl.transforming - INFO - Starting data transformation process
+ etl.transforming - INFO - Starting data transformation process
+ etl.transforming - INFO - Starting data transformation process
+ etl.transforming - INFO - Data transformation completed successfully
+ etl.transforming - INFO - Data transformation completed successfully
+ etl.transforming - INFO - Data transformation completed successfully
+ etl.transforming - INFO - Preparing dimensional data
+ etl.transforming - INFO - Preparing dimensional data
+ etl.transforming - INFO - Preparing dimensional data
+ etl.transforming - INFO - Dimensional data preparation completed successfully
+ etl.transforming - INFO - Dimensional data preparation completed successfully
+ etl.transforming - INFO - Dimensional data preparation completed successfully
+ etl.transforming - INFO - Transformed data saved to data\processed\retail_sales_transformed_20250512_001503.csv
+ etl.transforming - INFO - Transformed data saved to data\processed\retail_sales_transformed_20250512_001503.csv
+ etl.transforming - INFO - Transformed data saved to data\processed\retail_sales_transformed_20250512_001503.csv
+ etl.transforming - INFO - dim_customer saved to data\processed\dim_customer_20250512_001503.csv
+ etl.transforming - INFO - dim_customer saved to data\processed\dim_customer_20250512_001503.csv
+ etl.transforming - INFO - dim_customer saved to data\processed\dim_customer_20250512_001503.csv
+ etl.transforming - INFO - dim_product saved to data\processed\dim_product_20250512_001503.csv
+ etl.transforming - INFO - dim_product saved to data\processed\dim_product_20250512_001503.csv
+ etl.transforming - INFO - dim_product saved to data\processed\dim_product_20250512_001503.csv
+ etl.transforming - INFO - dim_date saved to data\processed\dim_date_20250512_001503.csv
+ etl.transforming - INFO - dim_date saved to data\processed\dim_date_20250512_001503.csv
+ etl.transforming - INFO - dim_date saved to data\processed\dim_date_20250512_001503.csv
+ etl.transforming - INFO - fact_sales saved to data\processed\fact_sales_20250512_001503.csv
+ etl.transforming - INFO - fact_sales saved to data\processed\fact_sales_20250512_001503.csv
+ etl.transforming - INFO - fact_sales saved to data\processed\fact_sales_20250512_001503.csv
+ etl.transforming - INFO - Data transformation workflow completed successfully
+ etl.transforming - INFO - Data transformation workflow completed successfully
+ etl.transforming - INFO - Data transformation workflow completed successfully
+ etl.loading - INFO - Starting data loading workflow
+ etl.loading - INFO - Starting data loading workflow
+ etl.loading - INFO - Starting data loading workflow
+ etl.loading - INFO - Creating database tables if they don't exist
+ etl.loading - INFO - Creating database tables if they don't exist
+ etl.loading - INFO - Creating database tables if they don't exist
+ etl.loading - INFO - Tables in database: ['dim_customer', 'fact_sales', 'dim_product', 'dim_date']
+ etl.loading - INFO - Tables in database: ['dim_customer', 'fact_sales', 'dim_product', 'dim_date']
+ etl.loading - INFO - Tables in database: ['dim_customer', 'fact_sales', 'dim_product', 'dim_date']
+ etl.loading - INFO - Loading data into dim_date
+ etl.loading - INFO - Loading data into dim_date
+ etl.loading - INFO - Loading data into dim_date
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ etl.loading - INFO - Loaded dim_date: 1431 inserted, 0 updated
+ etl.loading - INFO - Loaded dim_date: 1431 inserted, 0 updated
+ etl.loading - INFO - Loaded dim_date: 1431 inserted, 0 updated
+ etl.loading - INFO - Loading data into dim_customer
+ etl.loading - INFO - Loading data into dim_customer
+ etl.loading - INFO - Loading data into dim_customer
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ etl.loading - ERROR - Error loading dim_customer: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dim_customer_pkey"
+DETAIL:  Key (customer_id)=(TB-21520) already exists.
+
+[SQL: INSERT INTO dim_customer (customer_id, customer_name, segment, country, city, state, postal_code, region) VALUES (%(customer_id__0)s, %(customer_name__0)s, %(segment__0)s, %(country__0)s, %(city__0)s, %(state__0)s, %(postal_code__0)s, %(region__0)s), ... 152881 characters truncated ... ment__999)s, %(country__999)s, %(city__999)s, %(state__999)s, %(postal_code__999)s, %(region__999)s)]
+[parameters: {'region__0': 'South', 'segment__0': 'Consumer', 'state__0': 'Kentucky', 'customer_id__0': 'CG-12520', 'postal_code__0': 42420.0, 'country__0': 'United States', 'city__0': 'Henderson', 'customer_name__0': 'Claire Gute', 'region__1': 'West', 'segment__1': 'Corporate', 'state__1': 'California', 'customer_id__1': 'DV-13045', 'postal_code__1': 90036.0, 'country__1': 'United States', 'city__1': 'Los Angeles', 'customer_name__1': 'Darrin Van Huff', 'region__2': 'South', 'segment__2': 'Consumer', 'state__2': 'Florida', 'customer_id__2': 'SO-20335', 'postal_code__2': 33311.0, 'country__2': 'United States', 'city__2': 'Fort Lauderdale', 'customer_name__2': "Sean O'Donnell", 'region__3': 'West', 'segment__3': 'Consumer', 'state__3': 'California', 'customer_id__3': 'BH-11710', 'postal_code__3': 90032.0, 'country__3': 'United States', 'city__3': 'Los Angeles', 'customer_name__3': 'Brosina Hoffman', 'region__4': 'South', 'segment__4': 'Consumer', 'state__4': 'North Carolina', 'customer_id__4': 'AA-10480', 'postal_code__4': 28027.0, 'country__4': 'United States', 'city__4': 'Concord', 'customer_name__4': 'Andrew Allen', 'region__5': 'West', 'segment__5': 'Consumer', 'state__5': 'Washington', 'customer_id__5': 'IM-15070', 'postal_code__5': 98103.0, 'country__5': 'United States', 'city__5': 'Seattle', 'customer_name__5': 'Irene Maddox', 'region__6': 'Central', 'segment__6': 'Home Office' ... 7900 parameters truncated ... 'city__993': 'Houston', 'customer_name__993': 'Ken Black', 'region__994': 'East', 'segment__994': 'Corporate', 'state__994': 'New Jersey', 'customer_id__994': 'MC-17590', 'postal_code__994': 8861.0, 'country__994': 'United States', 'city__994': 'Perth Amboy', 'customer_name__994': 'Matt Collister', 'region__995': 'East', 'segment__995': 'Consumer', 'state__995': 'Pennsylvania', 'customer_id__995': 'CK-12595', 'postal_code__995': 19134.0, 'country__995': 'United States', 'city__995': 'Philadelphia', 'customer_name__995': 'Clytie Kelty', 'region__996': 'Central', 'segment__996': 'Consumer', 'state__996': 'Indiana', 'customer_id__996': 'RD-19480', 'postal_code__996': 47374.0, 'country__996': 'United States', 'city__996': 'Richmond', 'customer_name__996': 'Rick Duston', 'region__997': 'Central', 'segment__997': 'Consumer', 'state__997': 'Michigan', 'customer_id__997': 'TP-21130', 'postal_code__997': 48227.0, 'country__997': 'United States', 'city__997': 'Detroit', 'customer_name__997': 'Theone Pippenger', 'region__998': 'West', 'segment__998': 'Corporate', 'state__998': 'California', 'customer_id__998': 'GG-14650', 'postal_code__998': 90049.0, 'country__998': 'United States', 'city__998': 'Los Angeles', 'customer_name__998': 'Greg Guthrie', 'region__999': 'West', 'segment__999': 'Consumer', 'state__999': 'California', 'customer_id__999': 'ZC-21910', 'postal_code__999': 91767.0, 'country__999': 'United States', 'city__999': 'Pomona', 'customer_name__999': 'Zuschuss Carroll'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+ etl.loading - ERROR - Error loading dim_customer: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dim_customer_pkey"
+DETAIL:  Key (customer_id)=(TB-21520) already exists.
+
+[SQL: INSERT INTO dim_customer (customer_id, customer_name, segment, country, city, state, postal_code, region) VALUES (%(customer_id__0)s, %(customer_name__0)s, %(segment__0)s, %(country__0)s, %(city__0)s, %(state__0)s, %(postal_code__0)s, %(region__0)s), ... 152881 characters truncated ... ment__999)s, %(country__999)s, %(city__999)s, %(state__999)s, %(postal_code__999)s, %(region__999)s)]
+[parameters: {'region__0': 'South', 'segment__0': 'Consumer', 'state__0': 'Kentucky', 'customer_id__0': 'CG-12520', 'postal_code__0': 42420.0, 'country__0': 'United States', 'city__0': 'Henderson', 'customer_name__0': 'Claire Gute', 'region__1': 'West', 'segment__1': 'Corporate', 'state__1': 'California', 'customer_id__1': 'DV-13045', 'postal_code__1': 90036.0, 'country__1': 'United States', 'city__1': 'Los Angeles', 'customer_name__1': 'Darrin Van Huff', 'region__2': 'South', 'segment__2': 'Consumer', 'state__2': 'Florida', 'customer_id__2': 'SO-20335', 'postal_code__2': 33311.0, 'country__2': 'United States', 'city__2': 'Fort Lauderdale', 'customer_name__2': "Sean O'Donnell", 'region__3': 'West', 'segment__3': 'Consumer', 'state__3': 'California', 'customer_id__3': 'BH-11710', 'postal_code__3': 90032.0, 'country__3': 'United States', 'city__3': 'Los Angeles', 'customer_name__3': 'Brosina Hoffman', 'region__4': 'South', 'segment__4': 'Consumer', 'state__4': 'North Carolina', 'customer_id__4': 'AA-10480', 'postal_code__4': 28027.0, 'country__4': 'United States', 'city__4': 'Concord', 'customer_name__4': 'Andrew Allen', 'region__5': 'West', 'segment__5': 'Consumer', 'state__5': 'Washington', 'customer_id__5': 'IM-15070', 'postal_code__5': 98103.0, 'country__5': 'United States', 'city__5': 'Seattle', 'customer_name__5': 'Irene Maddox', 'region__6': 'Central', 'segment__6': 'Home Office' ... 7900 parameters truncated ... 'city__993': 'Houston', 'customer_name__993': 'Ken Black', 'region__994': 'East', 'segment__994': 'Corporate', 'state__994': 'New Jersey', 'customer_id__994': 'MC-17590', 'postal_code__994': 8861.0, 'country__994': 'United States', 'city__994': 'Perth Amboy', 'customer_name__994': 'Matt Collister', 'region__995': 'East', 'segment__995': 'Consumer', 'state__995': 'Pennsylvania', 'customer_id__995': 'CK-12595', 'postal_code__995': 19134.0, 'country__995': 'United States', 'city__995': 'Philadelphia', 'customer_name__995': 'Clytie Kelty', 'region__996': 'Central', 'segment__996': 'Consumer', 'state__996': 'Indiana', 'customer_id__996': 'RD-19480', 'postal_code__996': 47374.0, 'country__996': 'United States', 'city__996': 'Richmond', 'customer_name__996': 'Rick Duston', 'region__997': 'Central', 'segment__997': 'Consumer', 'state__997': 'Michigan', 'customer_id__997': 'TP-21130', 'postal_code__997': 48227.0, 'country__997': 'United States', 'city__997': 'Detroit', 'customer_name__997': 'Theone Pippenger', 'region__998': 'West', 'segment__998': 'Corporate', 'state__998': 'California', 'customer_id__998': 'GG-14650', 'postal_code__998': 90049.0, 'country__998': 'United States', 'city__998': 'Los Angeles', 'customer_name__998': 'Greg Guthrie', 'region__999': 'West', 'segment__999': 'Consumer', 'state__999': 'California', 'customer_id__999': 'ZC-21910', 'postal_code__999': 91767.0, 'country__999': 'United States', 'city__999': 'Pomona', 'customer_name__999': 'Zuschuss Carroll'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+ etl.loading - ERROR - Error loading dim_customer: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dim_customer_pkey"
+DETAIL:  Key (customer_id)=(TB-21520) already exists.
+
+[SQL: INSERT INTO dim_customer (customer_id, customer_name, segment, country, city, state, postal_code, region) VALUES (%(customer_id__0)s, %(customer_name__0)s, %(segment__0)s, %(country__0)s, %(city__0)s, %(state__0)s, %(postal_code__0)s, %(region__0)s), ... 152881 characters truncated ... ment__999)s, %(country__999)s, %(city__999)s, %(state__999)s, %(postal_code__999)s, %(region__999)s)]
+[parameters: {'region__0': 'South', 'segment__0': 'Consumer', 'state__0': 'Kentucky', 'customer_id__0': 'CG-12520', 'postal_code__0': 42420.0, 'country__0': 'United States', 'city__0': 'Henderson', 'customer_name__0': 'Claire Gute', 'region__1': 'West', 'segment__1': 'Corporate', 'state__1': 'California', 'customer_id__1': 'DV-13045', 'postal_code__1': 90036.0, 'country__1': 'United States', 'city__1': 'Los Angeles', 'customer_name__1': 'Darrin Van Huff', 'region__2': 'South', 'segment__2': 'Consumer', 'state__2': 'Florida', 'customer_id__2': 'SO-20335', 'postal_code__2': 33311.0, 'country__2': 'United States', 'city__2': 'Fort Lauderdale', 'customer_name__2': "Sean O'Donnell", 'region__3': 'West', 'segment__3': 'Consumer', 'state__3': 'California', 'customer_id__3': 'BH-11710', 'postal_code__3': 90032.0, 'country__3': 'United States', 'city__3': 'Los Angeles', 'customer_name__3': 'Brosina Hoffman', 'region__4': 'South', 'segment__4': 'Consumer', 'state__4': 'North Carolina', 'customer_id__4': 'AA-10480', 'postal_code__4': 28027.0, 'country__4': 'United States', 'city__4': 'Concord', 'customer_name__4': 'Andrew Allen', 'region__5': 'West', 'segment__5': 'Consumer', 'state__5': 'Washington', 'customer_id__5': 'IM-15070', 'postal_code__5': 98103.0, 'country__5': 'United States', 'city__5': 'Seattle', 'customer_name__5': 'Irene Maddox', 'region__6': 'Central', 'segment__6': 'Home Office' ... 7900 parameters truncated ... 'city__993': 'Houston', 'customer_name__993': 'Ken Black', 'region__994': 'East', 'segment__994': 'Corporate', 'state__994': 'New Jersey', 'customer_id__994': 'MC-17590', 'postal_code__994': 8861.0, 'country__994': 'United States', 'city__994': 'Perth Amboy', 'customer_name__994': 'Matt Collister', 'region__995': 'East', 'segment__995': 'Consumer', 'state__995': 'Pennsylvania', 'customer_id__995': 'CK-12595', 'postal_code__995': 19134.0, 'country__995': 'United States', 'city__995': 'Philadelphia', 'customer_name__995': 'Clytie Kelty', 'region__996': 'Central', 'segment__996': 'Consumer', 'state__996': 'Indiana', 'customer_id__996': 'RD-19480', 'postal_code__996': 47374.0, 'country__996': 'United States', 'city__996': 'Richmond', 'customer_name__996': 'Rick Duston', 'region__997': 'Central', 'segment__997': 'Consumer', 'state__997': 'Michigan', 'customer_id__997': 'TP-21130', 'postal_code__997': 48227.0, 'country__997': 'United States', 'city__997': 'Detroit', 'customer_name__997': 'Theone Pippenger', 'region__998': 'West', 'segment__998': 'Corporate', 'state__998': 'California', 'customer_id__998': 'GG-14650', 'postal_code__998': 90049.0, 'country__998': 'United States', 'city__998': 'Los Angeles', 'customer_name__998': 'Greg Guthrie', 'region__999': 'West', 'segment__999': 'Consumer', 'state__999': 'California', 'customer_id__999': 'ZC-21910', 'postal_code__999': 91767.0, 'country__999': 'United States', 'city__999': 'Pomona', 'customer_name__999': 'Zuschuss Carroll'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+ etl.loading - INFO - Loading data into dim_product
+ etl.loading - INFO - Loading data into dim_product
+ etl.loading - INFO - Loading data into dim_product
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ etl.loading - ERROR - Error loading dim_product: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dim_product_pkey"
+DETAIL:  Key (product_id)=(FUR-CH-10001146) already exists.
+
+[SQL: INSERT INTO dim_product (product_id, category, sub_category, product_name) VALUES (%(product_id__0)s, %(category__0)s, %(sub_category__0)s, %(product_name__0)s), (%(product_id__1)s, %(category__1)s, %(sub_category__1)s, %(product_name__1)s), (%(produ ... 87290 characters truncated ... name__998)s), (%(product_id__999)s, %(category__999)s, %(sub_category__999)s, %(product_name__999)s)]
+[parameters: {'product_id__0': 'FUR-BO-10001798', 'category__0': 'Furniture', 'product_name__0': 'Bush Somerset Collection Bookcase', 'sub_category__0': 'Bookcases', 'product_id__1': 'FUR-CH-10000454', 'category__1': 'Furniture', 'product_name__1': 'Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back', 'sub_category__1': 'Chairs', 'product_id__2': 'OFF-LA-10000240', 'category__2': 'Office Supplies', 'product_name__2': 'Self-Adhesive Address Labels for Typewriters by Universal', 'sub_category__2': 'Labels', 'product_id__3': 'FUR-TA-10000577', 'category__3': 'Furniture', 'product_name__3': 'Bretford CR4500 Series Slim Rectangular Table', 'sub_category__3': 'Tables', 'product_id__4': 'OFF-ST-10000760', 'category__4': 'Office Supplies', 'product_name__4': "Eldon Fold 'N Roll Cart System", 'sub_category__4': 'Storage', 'product_id__5': 'FUR-FU-10001487', 'category__5': 'Furniture', 'product_name__5': 'Eldon Expressions Wood and Plastic Desk Accessories, Cherry Wood', 'sub_category__5': 'Furnishings', 'product_id__6': 'OFF-AR-10002833', 'category__6': 'Office Supplies', 'product_name__6': 'Newell 322', 'sub_category__6': 'Art', 'product_id__7': 'TEC-PH-10002275', 'category__7': 'Technology', 'product_name__7': 'Mitel 5320 IP Phone VoIP phone', 'sub_category__7': 'Phones', 'product_id__8': 'OFF-BI-10003910', 'category__8': 'Office Supplies', 'product_name__8': 'DXL Angle-View Binders with Locking Rings by Samsill', 'sub_category__8': 'Binders', 'product_id__9': 'OFF-AP-10002892', 'category__9': 'Office Supplies', 'product_name__9': 'Belkin F5C206VTEL 6 Outlet Surge', 'sub_category__9': 'Appliances', 'product_id__10': 'FUR-TA-10001539', 'category__10': 'Furniture', 'product_name__10': 'Chromcraft Rectangular Conference Tables', 'sub_category__10': 'Tables', 'product_id__11': 'TEC-PH-10002033', 'category__11': 'Technology', 'product_name__11': 'Konftel 250 Conference\xa0phone\xa0- Charcoal black', 'sub_category__11': 'Phones', 'product_id__12': 'OFF-PA-10002365', 'category__12': 'Office Supplies' ... 3900 parameters truncated ... 'product_name__987': 'Panasonic KP-150 Electric Pencil Sharpener', 'sub_category__987': 'Art', 'product_id__988': 'OFF-BI-10002867', 'category__988': 'Office Supplies', 'product_name__988': 'GBC Recycled Regency Composition Covers', 'sub_category__988': 'Binders', 'product_id__989': 'FUR-FU-10003976', 'category__989': 'Furniture', 'product_name__989': 'DAX Executive Solid Wood Document Frame, Desktop or Hang, Mahogany, 5 x 7', 'sub_category__989': 'Furnishings', 'product_id__990': 'TEC-PH-10002922', 'category__990': 'Technology', 'product_name__990': 'ShoreTel ShorePhone IP 230 VoIP phone', 'sub_category__990': 'Phones', 'product_id__991': 'OFF-PA-10000501', 'category__991': 'Office Supplies', 'product_name__991': 'Petty Cash Envelope', 'sub_category__991': 'Paper', 'product_id__992': 'OFF-AP-10004980', 'category__992': 'Office Supplies', 'product_name__992': "3M Replacement Filter for Office Air Cleaner for 20' x 33' Room", 'sub_category__992': 'Appliances', 'product_id__993': 'TEC-PH-10001750', 'category__993': 'Technology', 'product_name__993': 'Samsung Rugby III', 'sub_category__993': 'Phones', 'product_id__994': 'OFF-BI-10003708', 'category__994': 'Office Supplies', 'product_name__994': 'Acco Four Pocket Poly Ring Binder with Label Holder, Smoke, 1"', 'sub_category__994': 'Binders', 'product_id__995': 'OFF-BI-10001191', 'category__995': 'Office Supplies', 'product_name__995': 'Canvas Sectional Post Binders', 'sub_category__995': 'Binders', 'product_id__996': 'OFF-PA-10003673', 'category__996': 'Office Supplies', 'product_name__996': 'Strathmore Photo Mount Cards', 'sub_category__996': 'Paper', 'product_id__997': 'OFF-PA-10001639', 'category__997': 'Office Supplies', 'product_name__997': 'Xerox 203', 'sub_category__997': 'Paper', 'product_id__998': 'TEC-AC-10004975', 'category__998': 'Technology', 'product_name__998': 'Plantronics Audio 995 Wireless Stereo Headset', 'sub_category__998': 'Accessories', 'product_id__999': 'OFF-BI-10004364', 'category__999': 'Office Supplies', 'product_name__999': 'Storex Dura Pro Binders', 'sub_category__999': 'Binders'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+ etl.loading - ERROR - Error loading dim_product: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dim_product_pkey"
+DETAIL:  Key (product_id)=(FUR-CH-10001146) already exists.
+
+[SQL: INSERT INTO dim_product (product_id, category, sub_category, product_name) VALUES (%(product_id__0)s, %(category__0)s, %(sub_category__0)s, %(product_name__0)s), (%(product_id__1)s, %(category__1)s, %(sub_category__1)s, %(product_name__1)s), (%(produ ... 87290 characters truncated ... name__998)s), (%(product_id__999)s, %(category__999)s, %(sub_category__999)s, %(product_name__999)s)]
+[parameters: {'product_id__0': 'FUR-BO-10001798', 'category__0': 'Furniture', 'product_name__0': 'Bush Somerset Collection Bookcase', 'sub_category__0': 'Bookcases', 'product_id__1': 'FUR-CH-10000454', 'category__1': 'Furniture', 'product_name__1': 'Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back', 'sub_category__1': 'Chairs', 'product_id__2': 'OFF-LA-10000240', 'category__2': 'Office Supplies', 'product_name__2': 'Self-Adhesive Address Labels for Typewriters by Universal', 'sub_category__2': 'Labels', 'product_id__3': 'FUR-TA-10000577', 'category__3': 'Furniture', 'product_name__3': 'Bretford CR4500 Series Slim Rectangular Table', 'sub_category__3': 'Tables', 'product_id__4': 'OFF-ST-10000760', 'category__4': 'Office Supplies', 'product_name__4': "Eldon Fold 'N Roll Cart System", 'sub_category__4': 'Storage', 'product_id__5': 'FUR-FU-10001487', 'category__5': 'Furniture', 'product_name__5': 'Eldon Expressions Wood and Plastic Desk Accessories, Cherry Wood', 'sub_category__5': 'Furnishings', 'product_id__6': 'OFF-AR-10002833', 'category__6': 'Office Supplies', 'product_name__6': 'Newell 322', 'sub_category__6': 'Art', 'product_id__7': 'TEC-PH-10002275', 'category__7': 'Technology', 'product_name__7': 'Mitel 5320 IP Phone VoIP phone', 'sub_category__7': 'Phones', 'product_id__8': 'OFF-BI-10003910', 'category__8': 'Office Supplies', 'product_name__8': 'DXL Angle-View Binders with Locking Rings by Samsill', 'sub_category__8': 'Binders', 'product_id__9': 'OFF-AP-10002892', 'category__9': 'Office Supplies', 'product_name__9': 'Belkin F5C206VTEL 6 Outlet Surge', 'sub_category__9': 'Appliances', 'product_id__10': 'FUR-TA-10001539', 'category__10': 'Furniture', 'product_name__10': 'Chromcraft Rectangular Conference Tables', 'sub_category__10': 'Tables', 'product_id__11': 'TEC-PH-10002033', 'category__11': 'Technology', 'product_name__11': 'Konftel 250 Conference\xa0phone\xa0- Charcoal black', 'sub_category__11': 'Phones', 'product_id__12': 'OFF-PA-10002365', 'category__12': 'Office Supplies' ... 3900 parameters truncated ... 'product_name__987': 'Panasonic KP-150 Electric Pencil Sharpener', 'sub_category__987': 'Art', 'product_id__988': 'OFF-BI-10002867', 'category__988': 'Office Supplies', 'product_name__988': 'GBC Recycled Regency Composition Covers', 'sub_category__988': 'Binders', 'product_id__989': 'FUR-FU-10003976', 'category__989': 'Furniture', 'product_name__989': 'DAX Executive Solid Wood Document Frame, Desktop or Hang, Mahogany, 5 x 7', 'sub_category__989': 'Furnishings', 'product_id__990': 'TEC-PH-10002922', 'category__990': 'Technology', 'product_name__990': 'ShoreTel ShorePhone IP 230 VoIP phone', 'sub_category__990': 'Phones', 'product_id__991': 'OFF-PA-10000501', 'category__991': 'Office Supplies', 'product_name__991': 'Petty Cash Envelope', 'sub_category__991': 'Paper', 'product_id__992': 'OFF-AP-10004980', 'category__992': 'Office Supplies', 'product_name__992': "3M Replacement Filter for Office Air Cleaner for 20' x 33' Room", 'sub_category__992': 'Appliances', 'product_id__993': 'TEC-PH-10001750', 'category__993': 'Technology', 'product_name__993': 'Samsung Rugby III', 'sub_category__993': 'Phones', 'product_id__994': 'OFF-BI-10003708', 'category__994': 'Office Supplies', 'product_name__994': 'Acco Four Pocket Poly Ring Binder with Label Holder, Smoke, 1"', 'sub_category__994': 'Binders', 'product_id__995': 'OFF-BI-10001191', 'category__995': 'Office Supplies', 'product_name__995': 'Canvas Sectional Post Binders', 'sub_category__995': 'Binders', 'product_id__996': 'OFF-PA-10003673', 'category__996': 'Office Supplies', 'product_name__996': 'Strathmore Photo Mount Cards', 'sub_category__996': 'Paper', 'product_id__997': 'OFF-PA-10001639', 'category__997': 'Office Supplies', 'product_name__997': 'Xerox 203', 'sub_category__997': 'Paper', 'product_id__998': 'TEC-AC-10004975', 'category__998': 'Technology', 'product_name__998': 'Plantronics Audio 995 Wireless Stereo Headset', 'sub_category__998': 'Accessories', 'product_id__999': 'OFF-BI-10004364', 'category__999': 'Office Supplies', 'product_name__999': 'Storex Dura Pro Binders', 'sub_category__999': 'Binders'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+ etl.loading - ERROR - Error loading dim_product: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dim_product_pkey"
+DETAIL:  Key (product_id)=(FUR-CH-10001146) already exists.
+
+[SQL: INSERT INTO dim_product (product_id, category, sub_category, product_name) VALUES (%(product_id__0)s, %(category__0)s, %(sub_category__0)s, %(product_name__0)s), (%(product_id__1)s, %(category__1)s, %(sub_category__1)s, %(product_name__1)s), (%(produ ... 87290 characters truncated ... name__998)s), (%(product_id__999)s, %(category__999)s, %(sub_category__999)s, %(product_name__999)s)]
+[parameters: {'product_id__0': 'FUR-BO-10001798', 'category__0': 'Furniture', 'product_name__0': 'Bush Somerset Collection Bookcase', 'sub_category__0': 'Bookcases', 'product_id__1': 'FUR-CH-10000454', 'category__1': 'Furniture', 'product_name__1': 'Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back', 'sub_category__1': 'Chairs', 'product_id__2': 'OFF-LA-10000240', 'category__2': 'Office Supplies', 'product_name__2': 'Self-Adhesive Address Labels for Typewriters by Universal', 'sub_category__2': 'Labels', 'product_id__3': 'FUR-TA-10000577', 'category__3': 'Furniture', 'product_name__3': 'Bretford CR4500 Series Slim Rectangular Table', 'sub_category__3': 'Tables', 'product_id__4': 'OFF-ST-10000760', 'category__4': 'Office Supplies', 'product_name__4': "Eldon Fold 'N Roll Cart System", 'sub_category__4': 'Storage', 'product_id__5': 'FUR-FU-10001487', 'category__5': 'Furniture', 'product_name__5': 'Eldon Expressions Wood and Plastic Desk Accessories, Cherry Wood', 'sub_category__5': 'Furnishings', 'product_id__6': 'OFF-AR-10002833', 'category__6': 'Office Supplies', 'product_name__6': 'Newell 322', 'sub_category__6': 'Art', 'product_id__7': 'TEC-PH-10002275', 'category__7': 'Technology', 'product_name__7': 'Mitel 5320 IP Phone VoIP phone', 'sub_category__7': 'Phones', 'product_id__8': 'OFF-BI-10003910', 'category__8': 'Office Supplies', 'product_name__8': 'DXL Angle-View Binders with Locking Rings by Samsill', 'sub_category__8': 'Binders', 'product_id__9': 'OFF-AP-10002892', 'category__9': 'Office Supplies', 'product_name__9': 'Belkin F5C206VTEL 6 Outlet Surge', 'sub_category__9': 'Appliances', 'product_id__10': 'FUR-TA-10001539', 'category__10': 'Furniture', 'product_name__10': 'Chromcraft Rectangular Conference Tables', 'sub_category__10': 'Tables', 'product_id__11': 'TEC-PH-10002033', 'category__11': 'Technology', 'product_name__11': 'Konftel 250 Conference\xa0phone\xa0- Charcoal black', 'sub_category__11': 'Phones', 'product_id__12': 'OFF-PA-10002365', 'category__12': 'Office Supplies' ... 3900 parameters truncated ... 'product_name__987': 'Panasonic KP-150 Electric Pencil Sharpener', 'sub_category__987': 'Art', 'product_id__988': 'OFF-BI-10002867', 'category__988': 'Office Supplies', 'product_name__988': 'GBC Recycled Regency Composition Covers', 'sub_category__988': 'Binders', 'product_id__989': 'FUR-FU-10003976', 'category__989': 'Furniture', 'product_name__989': 'DAX Executive Solid Wood Document Frame, Desktop or Hang, Mahogany, 5 x 7', 'sub_category__989': 'Furnishings', 'product_id__990': 'TEC-PH-10002922', 'category__990': 'Technology', 'product_name__990': 'ShoreTel ShorePhone IP 230 VoIP phone', 'sub_category__990': 'Phones', 'product_id__991': 'OFF-PA-10000501', 'category__991': 'Office Supplies', 'product_name__991': 'Petty Cash Envelope', 'sub_category__991': 'Paper', 'product_id__992': 'OFF-AP-10004980', 'category__992': 'Office Supplies', 'product_name__992': "3M Replacement Filter for Office Air Cleaner for 20' x 33' Room", 'sub_category__992': 'Appliances', 'product_id__993': 'TEC-PH-10001750', 'category__993': 'Technology', 'product_name__993': 'Samsung Rugby III', 'sub_category__993': 'Phones', 'product_id__994': 'OFF-BI-10003708', 'category__994': 'Office Supplies', 'product_name__994': 'Acco Four Pocket Poly Ring Binder with Label Holder, Smoke, 1"', 'sub_category__994': 'Binders', 'product_id__995': 'OFF-BI-10001191', 'category__995': 'Office Supplies', 'product_name__995': 'Canvas Sectional Post Binders', 'sub_category__995': 'Binders', 'product_id__996': 'OFF-PA-10003673', 'category__996': 'Office Supplies', 'product_name__996': 'Strathmore Photo Mount Cards', 'sub_category__996': 'Paper', 'product_id__997': 'OFF-PA-10001639', 'category__997': 'Office Supplies', 'product_name__997': 'Xerox 203', 'sub_category__997': 'Paper', 'product_id__998': 'TEC-AC-10004975', 'category__998': 'Technology', 'product_name__998': 'Plantronics Audio 995 Wireless Stereo Headset', 'sub_category__998': 'Accessories', 'product_id__999': 'OFF-BI-10004364', 'category__999': 'Office Supplies', 'product_name__999': 'Storex Dura Pro Binders', 'sub_category__999': 'Binders'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+ etl.loading - INFO - Loading data into fact_sales
+ etl.loading - INFO - Loading data into fact_sales
+ etl.loading - INFO - Loading data into fact_sales
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ etl.loading - ERROR - Error loading fact_sales: (psycopg2.errors.ForeignKeyViolation) insert or update on table "fact_sales" violates foreign key constraint "fact_sales_customer_id_fkey"
+DETAIL:  Key (customer_id)=(CG-12520) is not present in table "dim_customer".
+
+[SQL: INSERT INTO fact_sales (row_id, order_id, customer_id, product_id, order_date_id, ship_date_id, ship_mode, sales, quantity, discount, profit, profit_margin) VALUES (%(row_id__0)s, %(order_id__0)s, %(customer_id__0)s, %(product_id__0)s, %(order_date_i ... 241492 characters truncated ... 99)s, %(sales__999)s, %(quantity__999)s, %(discount__999)s, %(profit__999)s, %(profit_margin__999)s)]
+[parameters: {'ship_date_id__0': 584, 'customer_id__0': 'CG-12520', 'product_id__0': 'FUR-BO-10001798', 'quantity__0': 1, 'order_date_id__0': 1, 'profit_margin__0': 0.2, 'profit__0': 52.391999999999996, 'row_id__0': 1, 'order_id__0': 'CA-2017-152156', 'ship_mode__0': 'Second Class', 'discount__0': 0.0, 'sales__0': 261.96, 'ship_date_id__1': 584, 'customer_id__1': 'CG-12520', 'product_id__1': 'FUR-CH-10000454', 'quantity__1': 1, 'order_date_id__1': 1, 'profit_margin__1': 0.19999999999999998, 'profit__1': 146.388, 'row_id__1': 2, 'order_id__1': 'CA-2017-152156', 'ship_mode__1': 'Second Class', 'discount__1': 0.0, 'sales__1': 731.94, 'ship_date_id__2': 951, 'customer_id__2': 'DV-13045', 'product_id__2': 'OFF-LA-10000240', 'quantity__2': 1, 'order_date_id__2': 2, 'profit_margin__2': 0.2, 'profit__2': 2.924, 'row_id__2': 3, 'order_id__2': 'CA-2017-138688', 'ship_mode__2': 'Second Class', 'discount__2': 0.0, 'sales__2': 14.62, 'ship_date_id__3': 1091, 'customer_id__3': 'SO-20335', 'product_id__3': 'FUR-TA-10000577', 'quantity__3': 1, 'order_date_id__3': 3, 'profit_margin__3': 0.2, 'profit__3': 191.5155, 'row_id__3': 4, 'order_id__3': 'US-2016-108966', 'ship_mode__3': 'Standard Class', 'discount__3': 0.0, 'sales__3': 957.5775, 'ship_date_id__4': 1091, 'customer_id__4': 'SO-20335' ... 11900 parameters truncated ... 'discount__995': 0.0, 'sales__995': 617.97, 'ship_date_id__996': 503, 'customer_id__996': 'RD-19585', 'product_id__996': 'OFF-EN-10003862', 'quantity__996': 1, 'order_date_id__996': 373, 'profit_margin__996': 0.19999999999999998, 'profit__996': 2.134, 'row_id__996': 997, 'order_id__996': 'CA-2016-162537', 'ship_mode__996': 'Standard Class', 'discount__996': 0.0, 'sales__996': 10.67, 'ship_date_id__997': 503, 'customer_id__997': 'RD-19585', 'product_id__997': 'OFF-ST-10004258', 'quantity__997': 1, 'order_date_id__997': 373, 'profit_margin__997': 0.2, 'profit__997': 7.3260000000000005, 'row_id__997': 998, 'order_id__997': 'CA-2016-162537', 'ship_mode__997': 'Standard Class', 'discount__997': 0.0, 'sales__997': 36.63, 'ship_date_id__998': 503, 'customer_id__998': 'RD-19585', 'product_id__998': 'FUR-FU-10002885', 'quantity__998': 1, 'order_date_id__998': 373, 'profit_margin__998': 0.2, 'profit__998': 4.82, 'row_id__998': 999, 'order_id__998': 'CA-2016-162537', 'ship_mode__998': 'Standard Class', 'discount__998': 0.0, 'sales__998': 24.1, 'ship_date_id__999': 503, 'customer_id__999': 'RD-19585', 'product_id__999': 'FUR-FU-10001918', 'quantity__999': 1, 'order_date_id__999': 373, 'profit_margin__999': 0.2, 'profit__999': 6.622, 'row_id__999': 1000, 'order_id__999': 'CA-2016-162537', 'ship_mode__999': 'Standard Class', 'discount__999': 0.0, 'sales__999': 33.11}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+ etl.loading - ERROR - Error loading fact_sales: (psycopg2.errors.ForeignKeyViolation) insert or update on table "fact_sales" violates foreign key constraint "fact_sales_customer_id_fkey"
+DETAIL:  Key (customer_id)=(CG-12520) is not present in table "dim_customer".
+
+[SQL: INSERT INTO fact_sales (row_id, order_id, customer_id, product_id, order_date_id, ship_date_id, ship_mode, sales, quantity, discount, profit, profit_margin) VALUES (%(row_id__0)s, %(order_id__0)s, %(customer_id__0)s, %(product_id__0)s, %(order_date_i ... 241492 characters truncated ... 99)s, %(sales__999)s, %(quantity__999)s, %(discount__999)s, %(profit__999)s, %(profit_margin__999)s)]
+[parameters: {'ship_date_id__0': 584, 'customer_id__0': 'CG-12520', 'product_id__0': 'FUR-BO-10001798', 'quantity__0': 1, 'order_date_id__0': 1, 'profit_margin__0': 0.2, 'profit__0': 52.391999999999996, 'row_id__0': 1, 'order_id__0': 'CA-2017-152156', 'ship_mode__0': 'Second Class', 'discount__0': 0.0, 'sales__0': 261.96, 'ship_date_id__1': 584, 'customer_id__1': 'CG-12520', 'product_id__1': 'FUR-CH-10000454', 'quantity__1': 1, 'order_date_id__1': 1, 'profit_margin__1': 0.19999999999999998, 'profit__1': 146.388, 'row_id__1': 2, 'order_id__1': 'CA-2017-152156', 'ship_mode__1': 'Second Class', 'discount__1': 0.0, 'sales__1': 731.94, 'ship_date_id__2': 951, 'customer_id__2': 'DV-13045', 'product_id__2': 'OFF-LA-10000240', 'quantity__2': 1, 'order_date_id__2': 2, 'profit_margin__2': 0.2, 'profit__2': 2.924, 'row_id__2': 3, 'order_id__2': 'CA-2017-138688', 'ship_mode__2': 'Second Class', 'discount__2': 0.0, 'sales__2': 14.62, 'ship_date_id__3': 1091, 'customer_id__3': 'SO-20335', 'product_id__3': 'FUR-TA-10000577', 'quantity__3': 1, 'order_date_id__3': 3, 'profit_margin__3': 0.2, 'profit__3': 191.5155, 'row_id__3': 4, 'order_id__3': 'US-2016-108966', 'ship_mode__3': 'Standard Class', 'discount__3': 0.0, 'sales__3': 957.5775, 'ship_date_id__4': 1091, 'customer_id__4': 'SO-20335' ... 11900 parameters truncated ... 'discount__995': 0.0, 'sales__995': 617.97, 'ship_date_id__996': 503, 'customer_id__996': 'RD-19585', 'product_id__996': 'OFF-EN-10003862', 'quantity__996': 1, 'order_date_id__996': 373, 'profit_margin__996': 0.19999999999999998, 'profit__996': 2.134, 'row_id__996': 997, 'order_id__996': 'CA-2016-162537', 'ship_mode__996': 'Standard Class', 'discount__996': 0.0, 'sales__996': 10.67, 'ship_date_id__997': 503, 'customer_id__997': 'RD-19585', 'product_id__997': 'OFF-ST-10004258', 'quantity__997': 1, 'order_date_id__997': 373, 'profit_margin__997': 0.2, 'profit__997': 7.3260000000000005, 'row_id__997': 998, 'order_id__997': 'CA-2016-162537', 'ship_mode__997': 'Standard Class', 'discount__997': 0.0, 'sales__997': 36.63, 'ship_date_id__998': 503, 'customer_id__998': 'RD-19585', 'product_id__998': 'FUR-FU-10002885', 'quantity__998': 1, 'order_date_id__998': 373, 'profit_margin__998': 0.2, 'profit__998': 4.82, 'row_id__998': 999, 'order_id__998': 'CA-2016-162537', 'ship_mode__998': 'Standard Class', 'discount__998': 0.0, 'sales__998': 24.1, 'ship_date_id__999': 503, 'customer_id__999': 'RD-19585', 'product_id__999': 'FUR-FU-10001918', 'quantity__999': 1, 'order_date_id__999': 373, 'profit_margin__999': 0.2, 'profit__999': 6.622, 'row_id__999': 1000, 'order_id__999': 'CA-2016-162537', 'ship_mode__999': 'Standard Class', 'discount__999': 0.0, 'sales__999': 33.11}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+ etl.loading - ERROR - Error loading fact_sales: (psycopg2.errors.ForeignKeyViolation) insert or update on table "fact_sales" violates foreign key constraint "fact_sales_customer_id_fkey"
+DETAIL:  Key (customer_id)=(CG-12520) is not present in table "dim_customer".
+
+[SQL: INSERT INTO fact_sales (row_id, order_id, customer_id, product_id, order_date_id, ship_date_id, ship_mode, sales, quantity, discount, profit, profit_margin) VALUES (%(row_id__0)s, %(order_id__0)s, %(customer_id__0)s, %(product_id__0)s, %(order_date_i ... 241492 characters truncated ... 99)s, %(sales__999)s, %(quantity__999)s, %(discount__999)s, %(profit__999)s, %(profit_margin__999)s)]
+[parameters: {'ship_date_id__0': 584, 'customer_id__0': 'CG-12520', 'product_id__0': 'FUR-BO-10001798', 'quantity__0': 1, 'order_date_id__0': 1, 'profit_margin__0': 0.2, 'profit__0': 52.391999999999996, 'row_id__0': 1, 'order_id__0': 'CA-2017-152156', 'ship_mode__0': 'Second Class', 'discount__0': 0.0, 'sales__0': 261.96, 'ship_date_id__1': 584, 'customer_id__1': 'CG-12520', 'product_id__1': 'FUR-CH-10000454', 'quantity__1': 1, 'order_date_id__1': 1, 'profit_margin__1': 0.19999999999999998, 'profit__1': 146.388, 'row_id__1': 2, 'order_id__1': 'CA-2017-152156', 'ship_mode__1': 'Second Class', 'discount__1': 0.0, 'sales__1': 731.94, 'ship_date_id__2': 951, 'customer_id__2': 'DV-13045', 'product_id__2': 'OFF-LA-10000240', 'quantity__2': 1, 'order_date_id__2': 2, 'profit_margin__2': 0.2, 'profit__2': 2.924, 'row_id__2': 3, 'order_id__2': 'CA-2017-138688', 'ship_mode__2': 'Second Class', 'discount__2': 0.0, 'sales__2': 14.62, 'ship_date_id__3': 1091, 'customer_id__3': 'SO-20335', 'product_id__3': 'FUR-TA-10000577', 'quantity__3': 1, 'order_date_id__3': 3, 'profit_margin__3': 0.2, 'profit__3': 191.5155, 'row_id__3': 4, 'order_id__3': 'US-2016-108966', 'ship_mode__3': 'Standard Class', 'discount__3': 0.0, 'sales__3': 957.5775, 'ship_date_id__4': 1091, 'customer_id__4': 'SO-20335' ... 11900 parameters truncated ... 'discount__995': 0.0, 'sales__995': 617.97, 'ship_date_id__996': 503, 'customer_id__996': 'RD-19585', 'product_id__996': 'OFF-EN-10003862', 'quantity__996': 1, 'order_date_id__996': 373, 'profit_margin__996': 0.19999999999999998, 'profit__996': 2.134, 'row_id__996': 997, 'order_id__996': 'CA-2016-162537', 'ship_mode__996': 'Standard Class', 'discount__996': 0.0, 'sales__996': 10.67, 'ship_date_id__997': 503, 'customer_id__997': 'RD-19585', 'product_id__997': 'OFF-ST-10004258', 'quantity__997': 1, 'order_date_id__997': 373, 'profit_margin__997': 0.2, 'profit__997': 7.3260000000000005, 'row_id__997': 998, 'order_id__997': 'CA-2016-162537', 'ship_mode__997': 'Standard Class', 'discount__997': 0.0, 'sales__997': 36.63, 'ship_date_id__998': 503, 'customer_id__998': 'RD-19585', 'product_id__998': 'FUR-FU-10002885', 'quantity__998': 1, 'order_date_id__998': 373, 'profit_margin__998': 0.2, 'profit__998': 4.82, 'row_id__998': 999, 'order_id__998': 'CA-2016-162537', 'ship_mode__998': 'Standard Class', 'discount__998': 0.0, 'sales__998': 24.1, 'ship_date_id__999': 503, 'customer_id__999': 'RD-19585', 'product_id__999': 'FUR-FU-10001918', 'quantity__999': 1, 'order_date_id__999': 373, 'profit_margin__999': 0.2, 'profit__999': 6.622, 'row_id__999': 1000, 'order_id__999': 'CA-2016-162537', 'ship_mode__999': 'Standard Class', 'discount__999': 0.0, 'sales__999': 33.11}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+ etl.loading - INFO - Data loading workflow completed successfully
+ etl.loading - INFO - Data loading workflow completed successfully
+ etl.loading - INFO - Data loading workflow completed successfully
+ __main__ - INFO - Pipeline executed successfully in 15.72 seconds
+ __main__ - INFO - Pipeline executed successfully in 15.72 seconds
+ __main__ - INFO - Pipeline executed successfully in 15.72 seconds
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Starting ETL pipeline execution
+ __main__ - INFO - Starting ETL pipeline execution
+ __main__ - INFO - Starting ETL pipeline execution
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_001738.csv
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_001738.csv
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_001738.csv
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - INFO - Data cleaning completed. Records: 9800 -> 9800
+ etl.transforming - INFO - Data cleaning completed. Records: 9800 -> 9800
+ etl.transforming - INFO - Data cleaning completed. Records: 9800 -> 9800
+ etl.transforming - INFO - Starting data transformation process
+ etl.transforming - INFO - Starting data transformation process
+ etl.transforming - INFO - Starting data transformation process
+ etl.transforming - INFO - Data transformation completed successfully
+ etl.transforming - INFO - Data transformation completed successfully
+ etl.transforming - INFO - Data transformation completed successfully
+ etl.transforming - INFO - Preparing dimensional data
+ etl.transforming - INFO - Preparing dimensional data
+ etl.transforming - INFO - Preparing dimensional data
+ etl.transforming - INFO - Dimensional data preparation completed successfully
+ etl.transforming - INFO - Dimensional data preparation completed successfully
+ etl.transforming - INFO - Dimensional data preparation completed successfully
+ etl.transforming - INFO - Transformed data saved to data\processed\retail_sales_transformed_20250512_001739.csv
+ etl.transforming - INFO - Transformed data saved to data\processed\retail_sales_transformed_20250512_001739.csv
+ etl.transforming - INFO - Transformed data saved to data\processed\retail_sales_transformed_20250512_001739.csv
+ etl.transforming - INFO - dim_customer saved to data\processed\dim_customer_20250512_001739.csv
+ etl.transforming - INFO - dim_customer saved to data\processed\dim_customer_20250512_001739.csv
+ etl.transforming - INFO - dim_customer saved to data\processed\dim_customer_20250512_001739.csv
+ etl.transforming - INFO - dim_product saved to data\processed\dim_product_20250512_001739.csv
+ etl.transforming - INFO - dim_product saved to data\processed\dim_product_20250512_001739.csv
+ etl.transforming - INFO - dim_product saved to data\processed\dim_product_20250512_001739.csv
+ etl.transforming - INFO - dim_date saved to data\processed\dim_date_20250512_001739.csv
+ etl.transforming - INFO - dim_date saved to data\processed\dim_date_20250512_001739.csv
+ etl.transforming - INFO - dim_date saved to data\processed\dim_date_20250512_001739.csv
+ etl.transforming - INFO - fact_sales saved to data\processed\fact_sales_20250512_001739.csv
+ etl.transforming - INFO - fact_sales saved to data\processed\fact_sales_20250512_001739.csv
+ etl.transforming - INFO - fact_sales saved to data\processed\fact_sales_20250512_001739.csv
+ etl.transforming - INFO - Data transformation workflow completed successfully
+ etl.transforming - INFO - Data transformation workflow completed successfully
+ etl.transforming - INFO - Data transformation workflow completed successfully
+ etl.loading - INFO - Starting data loading workflow
+ etl.loading - INFO - Starting data loading workflow
+ etl.loading - INFO - Starting data loading workflow
+ etl.loading - INFO - Creating database tables if they don't exist
+ etl.loading - INFO - Creating database tables if they don't exist
+ etl.loading - INFO - Creating database tables if they don't exist
+ etl.loading - INFO - Tables in database: ['dim_customer', 'fact_sales', 'dim_product', 'dim_date']
+ etl.loading - INFO - Tables in database: ['dim_customer', 'fact_sales', 'dim_product', 'dim_date']
+ etl.loading - INFO - Tables in database: ['dim_customer', 'fact_sales', 'dim_product', 'dim_date']
+ etl.loading - INFO - Loading data into dim_date
+ etl.loading - INFO - Loading data into dim_date
+ etl.loading - INFO - Loading data into dim_date
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ etl.loading - INFO - Loaded dim_date: 0 inserted, 1431 updated
+ etl.loading - INFO - Loaded dim_date: 0 inserted, 1431 updated
+ etl.loading - INFO - Loaded dim_date: 0 inserted, 1431 updated
+ etl.loading - INFO - Loading data into dim_customer
+ etl.loading - INFO - Loading data into dim_customer
+ etl.loading - INFO - Loading data into dim_customer
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ etl.loading - ERROR - Error loading dim_customer: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dim_customer_pkey"
+DETAIL:  Key (customer_id)=(TB-21520) already exists.
+
+[SQL: INSERT INTO dim_customer (customer_id, customer_name, segment, country, city, state, postal_code, region) VALUES (%(customer_id__0)s, %(customer_name__0)s, %(segment__0)s, %(country__0)s, %(city__0)s, %(state__0)s, %(postal_code__0)s, %(region__0)s), ... 152881 characters truncated ... ment__999)s, %(country__999)s, %(city__999)s, %(state__999)s, %(postal_code__999)s, %(region__999)s)]
+[parameters: {'customer_id__0': 'CG-12520', 'state__0': 'Kentucky', 'country__0': 'United States', 'segment__0': 'Consumer', 'city__0': 'Henderson', 'postal_code__0': 42420.0, 'customer_name__0': 'Claire Gute', 'region__0': 'South', 'customer_id__1': 'DV-13045', 'state__1': 'California', 'country__1': 'United States', 'segment__1': 'Corporate', 'city__1': 'Los Angeles', 'postal_code__1': 90036.0, 'customer_name__1': 'Darrin Van Huff', 'region__1': 'West', 'customer_id__2': 'SO-20335', 'state__2': 'Florida', 'country__2': 'United States', 'segment__2': 'Consumer', 'city__2': 'Fort Lauderdale', 'postal_code__2': 33311.0, 'customer_name__2': "Sean O'Donnell", 'region__2': 'South', 'customer_id__3': 'BH-11710', 'state__3': 'California', 'country__3': 'United States', 'segment__3': 'Consumer', 'city__3': 'Los Angeles', 'postal_code__3': 90032.0, 'customer_name__3': 'Brosina Hoffman', 'region__3': 'West', 'customer_id__4': 'AA-10480', 'state__4': 'North Carolina', 'country__4': 'United States', 'segment__4': 'Consumer', 'city__4': 'Concord', 'postal_code__4': 28027.0, 'customer_name__4': 'Andrew Allen', 'region__4': 'South', 'customer_id__5': 'IM-15070', 'state__5': 'Washington', 'country__5': 'United States', 'segment__5': 'Consumer', 'city__5': 'Seattle', 'postal_code__5': 98103.0, 'customer_name__5': 'Irene Maddox', 'region__5': 'West', 'customer_id__6': 'HP-14815', 'state__6': 'Texas' ... 7900 parameters truncated ... 'customer_name__993': 'Ken Black', 'region__993': 'Central', 'customer_id__994': 'MC-17590', 'state__994': 'New Jersey', 'country__994': 'United States', 'segment__994': 'Corporate', 'city__994': 'Perth Amboy', 'postal_code__994': 8861.0, 'customer_name__994': 'Matt Collister', 'region__994': 'East', 'customer_id__995': 'CK-12595', 'state__995': 'Pennsylvania', 'country__995': 'United States', 'segment__995': 'Consumer', 'city__995': 'Philadelphia', 'postal_code__995': 19134.0, 'customer_name__995': 'Clytie Kelty', 'region__995': 'East', 'customer_id__996': 'RD-19480', 'state__996': 'Indiana', 'country__996': 'United States', 'segment__996': 'Consumer', 'city__996': 'Richmond', 'postal_code__996': 47374.0, 'customer_name__996': 'Rick Duston', 'region__996': 'Central', 'customer_id__997': 'TP-21130', 'state__997': 'Michigan', 'country__997': 'United States', 'segment__997': 'Consumer', 'city__997': 'Detroit', 'postal_code__997': 48227.0, 'customer_name__997': 'Theone Pippenger', 'region__997': 'Central', 'customer_id__998': 'GG-14650', 'state__998': 'California', 'country__998': 'United States', 'segment__998': 'Corporate', 'city__998': 'Los Angeles', 'postal_code__998': 90049.0, 'customer_name__998': 'Greg Guthrie', 'region__998': 'West', 'customer_id__999': 'ZC-21910', 'state__999': 'California', 'country__999': 'United States', 'segment__999': 'Consumer', 'city__999': 'Pomona', 'postal_code__999': 91767.0, 'customer_name__999': 'Zuschuss Carroll', 'region__999': 'West'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+ etl.loading - ERROR - Error loading dim_customer: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dim_customer_pkey"
+DETAIL:  Key (customer_id)=(TB-21520) already exists.
+
+[SQL: INSERT INTO dim_customer (customer_id, customer_name, segment, country, city, state, postal_code, region) VALUES (%(customer_id__0)s, %(customer_name__0)s, %(segment__0)s, %(country__0)s, %(city__0)s, %(state__0)s, %(postal_code__0)s, %(region__0)s), ... 152881 characters truncated ... ment__999)s, %(country__999)s, %(city__999)s, %(state__999)s, %(postal_code__999)s, %(region__999)s)]
+[parameters: {'customer_id__0': 'CG-12520', 'state__0': 'Kentucky', 'country__0': 'United States', 'segment__0': 'Consumer', 'city__0': 'Henderson', 'postal_code__0': 42420.0, 'customer_name__0': 'Claire Gute', 'region__0': 'South', 'customer_id__1': 'DV-13045', 'state__1': 'California', 'country__1': 'United States', 'segment__1': 'Corporate', 'city__1': 'Los Angeles', 'postal_code__1': 90036.0, 'customer_name__1': 'Darrin Van Huff', 'region__1': 'West', 'customer_id__2': 'SO-20335', 'state__2': 'Florida', 'country__2': 'United States', 'segment__2': 'Consumer', 'city__2': 'Fort Lauderdale', 'postal_code__2': 33311.0, 'customer_name__2': "Sean O'Donnell", 'region__2': 'South', 'customer_id__3': 'BH-11710', 'state__3': 'California', 'country__3': 'United States', 'segment__3': 'Consumer', 'city__3': 'Los Angeles', 'postal_code__3': 90032.0, 'customer_name__3': 'Brosina Hoffman', 'region__3': 'West', 'customer_id__4': 'AA-10480', 'state__4': 'North Carolina', 'country__4': 'United States', 'segment__4': 'Consumer', 'city__4': 'Concord', 'postal_code__4': 28027.0, 'customer_name__4': 'Andrew Allen', 'region__4': 'South', 'customer_id__5': 'IM-15070', 'state__5': 'Washington', 'country__5': 'United States', 'segment__5': 'Consumer', 'city__5': 'Seattle', 'postal_code__5': 98103.0, 'customer_name__5': 'Irene Maddox', 'region__5': 'West', 'customer_id__6': 'HP-14815', 'state__6': 'Texas' ... 7900 parameters truncated ... 'customer_name__993': 'Ken Black', 'region__993': 'Central', 'customer_id__994': 'MC-17590', 'state__994': 'New Jersey', 'country__994': 'United States', 'segment__994': 'Corporate', 'city__994': 'Perth Amboy', 'postal_code__994': 8861.0, 'customer_name__994': 'Matt Collister', 'region__994': 'East', 'customer_id__995': 'CK-12595', 'state__995': 'Pennsylvania', 'country__995': 'United States', 'segment__995': 'Consumer', 'city__995': 'Philadelphia', 'postal_code__995': 19134.0, 'customer_name__995': 'Clytie Kelty', 'region__995': 'East', 'customer_id__996': 'RD-19480', 'state__996': 'Indiana', 'country__996': 'United States', 'segment__996': 'Consumer', 'city__996': 'Richmond', 'postal_code__996': 47374.0, 'customer_name__996': 'Rick Duston', 'region__996': 'Central', 'customer_id__997': 'TP-21130', 'state__997': 'Michigan', 'country__997': 'United States', 'segment__997': 'Consumer', 'city__997': 'Detroit', 'postal_code__997': 48227.0, 'customer_name__997': 'Theone Pippenger', 'region__997': 'Central', 'customer_id__998': 'GG-14650', 'state__998': 'California', 'country__998': 'United States', 'segment__998': 'Corporate', 'city__998': 'Los Angeles', 'postal_code__998': 90049.0, 'customer_name__998': 'Greg Guthrie', 'region__998': 'West', 'customer_id__999': 'ZC-21910', 'state__999': 'California', 'country__999': 'United States', 'segment__999': 'Consumer', 'city__999': 'Pomona', 'postal_code__999': 91767.0, 'customer_name__999': 'Zuschuss Carroll', 'region__999': 'West'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+ etl.loading - ERROR - Error loading dim_customer: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dim_customer_pkey"
+DETAIL:  Key (customer_id)=(TB-21520) already exists.
+
+[SQL: INSERT INTO dim_customer (customer_id, customer_name, segment, country, city, state, postal_code, region) VALUES (%(customer_id__0)s, %(customer_name__0)s, %(segment__0)s, %(country__0)s, %(city__0)s, %(state__0)s, %(postal_code__0)s, %(region__0)s), ... 152881 characters truncated ... ment__999)s, %(country__999)s, %(city__999)s, %(state__999)s, %(postal_code__999)s, %(region__999)s)]
+[parameters: {'customer_id__0': 'CG-12520', 'state__0': 'Kentucky', 'country__0': 'United States', 'segment__0': 'Consumer', 'city__0': 'Henderson', 'postal_code__0': 42420.0, 'customer_name__0': 'Claire Gute', 'region__0': 'South', 'customer_id__1': 'DV-13045', 'state__1': 'California', 'country__1': 'United States', 'segment__1': 'Corporate', 'city__1': 'Los Angeles', 'postal_code__1': 90036.0, 'customer_name__1': 'Darrin Van Huff', 'region__1': 'West', 'customer_id__2': 'SO-20335', 'state__2': 'Florida', 'country__2': 'United States', 'segment__2': 'Consumer', 'city__2': 'Fort Lauderdale', 'postal_code__2': 33311.0, 'customer_name__2': "Sean O'Donnell", 'region__2': 'South', 'customer_id__3': 'BH-11710', 'state__3': 'California', 'country__3': 'United States', 'segment__3': 'Consumer', 'city__3': 'Los Angeles', 'postal_code__3': 90032.0, 'customer_name__3': 'Brosina Hoffman', 'region__3': 'West', 'customer_id__4': 'AA-10480', 'state__4': 'North Carolina', 'country__4': 'United States', 'segment__4': 'Consumer', 'city__4': 'Concord', 'postal_code__4': 28027.0, 'customer_name__4': 'Andrew Allen', 'region__4': 'South', 'customer_id__5': 'IM-15070', 'state__5': 'Washington', 'country__5': 'United States', 'segment__5': 'Consumer', 'city__5': 'Seattle', 'postal_code__5': 98103.0, 'customer_name__5': 'Irene Maddox', 'region__5': 'West', 'customer_id__6': 'HP-14815', 'state__6': 'Texas' ... 7900 parameters truncated ... 'customer_name__993': 'Ken Black', 'region__993': 'Central', 'customer_id__994': 'MC-17590', 'state__994': 'New Jersey', 'country__994': 'United States', 'segment__994': 'Corporate', 'city__994': 'Perth Amboy', 'postal_code__994': 8861.0, 'customer_name__994': 'Matt Collister', 'region__994': 'East', 'customer_id__995': 'CK-12595', 'state__995': 'Pennsylvania', 'country__995': 'United States', 'segment__995': 'Consumer', 'city__995': 'Philadelphia', 'postal_code__995': 19134.0, 'customer_name__995': 'Clytie Kelty', 'region__995': 'East', 'customer_id__996': 'RD-19480', 'state__996': 'Indiana', 'country__996': 'United States', 'segment__996': 'Consumer', 'city__996': 'Richmond', 'postal_code__996': 47374.0, 'customer_name__996': 'Rick Duston', 'region__996': 'Central', 'customer_id__997': 'TP-21130', 'state__997': 'Michigan', 'country__997': 'United States', 'segment__997': 'Consumer', 'city__997': 'Detroit', 'postal_code__997': 48227.0, 'customer_name__997': 'Theone Pippenger', 'region__997': 'Central', 'customer_id__998': 'GG-14650', 'state__998': 'California', 'country__998': 'United States', 'segment__998': 'Corporate', 'city__998': 'Los Angeles', 'postal_code__998': 90049.0, 'customer_name__998': 'Greg Guthrie', 'region__998': 'West', 'customer_id__999': 'ZC-21910', 'state__999': 'California', 'country__999': 'United States', 'segment__999': 'Consumer', 'city__999': 'Pomona', 'postal_code__999': 91767.0, 'customer_name__999': 'Zuschuss Carroll', 'region__999': 'West'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+ etl.loading - INFO - Loading data into dim_product
+ etl.loading - INFO - Loading data into dim_product
+ etl.loading - INFO - Loading data into dim_product
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ etl.loading - ERROR - Error loading dim_product: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dim_product_pkey"
+DETAIL:  Key (product_id)=(FUR-CH-10001146) already exists.
+
+[SQL: INSERT INTO dim_product (product_id, category, sub_category, product_name) VALUES (%(product_id__0)s, %(category__0)s, %(sub_category__0)s, %(product_name__0)s), (%(product_id__1)s, %(category__1)s, %(sub_category__1)s, %(product_name__1)s), (%(produ ... 87290 characters truncated ... name__998)s), (%(product_id__999)s, %(category__999)s, %(sub_category__999)s, %(product_name__999)s)]
+[parameters: {'category__0': 'Furniture', 'product_id__0': 'FUR-BO-10001798', 'sub_category__0': 'Bookcases', 'product_name__0': 'Bush Somerset Collection Bookcase', 'category__1': 'Furniture', 'product_id__1': 'FUR-CH-10000454', 'sub_category__1': 'Chairs', 'product_name__1': 'Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back', 'category__2': 'Office Supplies', 'product_id__2': 'OFF-LA-10000240', 'sub_category__2': 'Labels', 'product_name__2': 'Self-Adhesive Address Labels for Typewriters by Universal', 'category__3': 'Furniture', 'product_id__3': 'FUR-TA-10000577', 'sub_category__3': 'Tables', 'product_name__3': 'Bretford CR4500 Series Slim Rectangular Table', 'category__4': 'Office Supplies', 'product_id__4': 'OFF-ST-10000760', 'sub_category__4': 'Storage', 'product_name__4': "Eldon Fold 'N Roll Cart System", 'category__5': 'Furniture', 'product_id__5': 'FUR-FU-10001487', 'sub_category__5': 'Furnishings', 'product_name__5': 'Eldon Expressions Wood and Plastic Desk Accessories, Cherry Wood', 'category__6': 'Office Supplies', 'product_id__6': 'OFF-AR-10002833', 'sub_category__6': 'Art', 'product_name__6': 'Newell 322', 'category__7': 'Technology', 'product_id__7': 'TEC-PH-10002275', 'sub_category__7': 'Phones', 'product_name__7': 'Mitel 5320 IP Phone VoIP phone', 'category__8': 'Office Supplies', 'product_id__8': 'OFF-BI-10003910', 'sub_category__8': 'Binders', 'product_name__8': 'DXL Angle-View Binders with Locking Rings by Samsill', 'category__9': 'Office Supplies', 'product_id__9': 'OFF-AP-10002892', 'sub_category__9': 'Appliances', 'product_name__9': 'Belkin F5C206VTEL 6 Outlet Surge', 'category__10': 'Furniture', 'product_id__10': 'FUR-TA-10001539', 'sub_category__10': 'Tables', 'product_name__10': 'Chromcraft Rectangular Conference Tables', 'category__11': 'Technology', 'product_id__11': 'TEC-PH-10002033', 'sub_category__11': 'Phones', 'product_name__11': 'Konftel 250 Conference\xa0phone\xa0- Charcoal black', 'category__12': 'Office Supplies', 'product_id__12': 'OFF-PA-10002365' ... 3900 parameters truncated ... 'sub_category__987': 'Art', 'product_name__987': 'Panasonic KP-150 Electric Pencil Sharpener', 'category__988': 'Office Supplies', 'product_id__988': 'OFF-BI-10002867', 'sub_category__988': 'Binders', 'product_name__988': 'GBC Recycled Regency Composition Covers', 'category__989': 'Furniture', 'product_id__989': 'FUR-FU-10003976', 'sub_category__989': 'Furnishings', 'product_name__989': 'DAX Executive Solid Wood Document Frame, Desktop or Hang, Mahogany, 5 x 7', 'category__990': 'Technology', 'product_id__990': 'TEC-PH-10002922', 'sub_category__990': 'Phones', 'product_name__990': 'ShoreTel ShorePhone IP 230 VoIP phone', 'category__991': 'Office Supplies', 'product_id__991': 'OFF-PA-10000501', 'sub_category__991': 'Paper', 'product_name__991': 'Petty Cash Envelope', 'category__992': 'Office Supplies', 'product_id__992': 'OFF-AP-10004980', 'sub_category__992': 'Appliances', 'product_name__992': "3M Replacement Filter for Office Air Cleaner for 20' x 33' Room", 'category__993': 'Technology', 'product_id__993': 'TEC-PH-10001750', 'sub_category__993': 'Phones', 'product_name__993': 'Samsung Rugby III', 'category__994': 'Office Supplies', 'product_id__994': 'OFF-BI-10003708', 'sub_category__994': 'Binders', 'product_name__994': 'Acco Four Pocket Poly Ring Binder with Label Holder, Smoke, 1"', 'category__995': 'Office Supplies', 'product_id__995': 'OFF-BI-10001191', 'sub_category__995': 'Binders', 'product_name__995': 'Canvas Sectional Post Binders', 'category__996': 'Office Supplies', 'product_id__996': 'OFF-PA-10003673', 'sub_category__996': 'Paper', 'product_name__996': 'Strathmore Photo Mount Cards', 'category__997': 'Office Supplies', 'product_id__997': 'OFF-PA-10001639', 'sub_category__997': 'Paper', 'product_name__997': 'Xerox 203', 'category__998': 'Technology', 'product_id__998': 'TEC-AC-10004975', 'sub_category__998': 'Accessories', 'product_name__998': 'Plantronics Audio 995 Wireless Stereo Headset', 'category__999': 'Office Supplies', 'product_id__999': 'OFF-BI-10004364', 'sub_category__999': 'Binders', 'product_name__999': 'Storex Dura Pro Binders'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+ etl.loading - ERROR - Error loading dim_product: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dim_product_pkey"
+DETAIL:  Key (product_id)=(FUR-CH-10001146) already exists.
+
+[SQL: INSERT INTO dim_product (product_id, category, sub_category, product_name) VALUES (%(product_id__0)s, %(category__0)s, %(sub_category__0)s, %(product_name__0)s), (%(product_id__1)s, %(category__1)s, %(sub_category__1)s, %(product_name__1)s), (%(produ ... 87290 characters truncated ... name__998)s), (%(product_id__999)s, %(category__999)s, %(sub_category__999)s, %(product_name__999)s)]
+[parameters: {'category__0': 'Furniture', 'product_id__0': 'FUR-BO-10001798', 'sub_category__0': 'Bookcases', 'product_name__0': 'Bush Somerset Collection Bookcase', 'category__1': 'Furniture', 'product_id__1': 'FUR-CH-10000454', 'sub_category__1': 'Chairs', 'product_name__1': 'Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back', 'category__2': 'Office Supplies', 'product_id__2': 'OFF-LA-10000240', 'sub_category__2': 'Labels', 'product_name__2': 'Self-Adhesive Address Labels for Typewriters by Universal', 'category__3': 'Furniture', 'product_id__3': 'FUR-TA-10000577', 'sub_category__3': 'Tables', 'product_name__3': 'Bretford CR4500 Series Slim Rectangular Table', 'category__4': 'Office Supplies', 'product_id__4': 'OFF-ST-10000760', 'sub_category__4': 'Storage', 'product_name__4': "Eldon Fold 'N Roll Cart System", 'category__5': 'Furniture', 'product_id__5': 'FUR-FU-10001487', 'sub_category__5': 'Furnishings', 'product_name__5': 'Eldon Expressions Wood and Plastic Desk Accessories, Cherry Wood', 'category__6': 'Office Supplies', 'product_id__6': 'OFF-AR-10002833', 'sub_category__6': 'Art', 'product_name__6': 'Newell 322', 'category__7': 'Technology', 'product_id__7': 'TEC-PH-10002275', 'sub_category__7': 'Phones', 'product_name__7': 'Mitel 5320 IP Phone VoIP phone', 'category__8': 'Office Supplies', 'product_id__8': 'OFF-BI-10003910', 'sub_category__8': 'Binders', 'product_name__8': 'DXL Angle-View Binders with Locking Rings by Samsill', 'category__9': 'Office Supplies', 'product_id__9': 'OFF-AP-10002892', 'sub_category__9': 'Appliances', 'product_name__9': 'Belkin F5C206VTEL 6 Outlet Surge', 'category__10': 'Furniture', 'product_id__10': 'FUR-TA-10001539', 'sub_category__10': 'Tables', 'product_name__10': 'Chromcraft Rectangular Conference Tables', 'category__11': 'Technology', 'product_id__11': 'TEC-PH-10002033', 'sub_category__11': 'Phones', 'product_name__11': 'Konftel 250 Conference\xa0phone\xa0- Charcoal black', 'category__12': 'Office Supplies', 'product_id__12': 'OFF-PA-10002365' ... 3900 parameters truncated ... 'sub_category__987': 'Art', 'product_name__987': 'Panasonic KP-150 Electric Pencil Sharpener', 'category__988': 'Office Supplies', 'product_id__988': 'OFF-BI-10002867', 'sub_category__988': 'Binders', 'product_name__988': 'GBC Recycled Regency Composition Covers', 'category__989': 'Furniture', 'product_id__989': 'FUR-FU-10003976', 'sub_category__989': 'Furnishings', 'product_name__989': 'DAX Executive Solid Wood Document Frame, Desktop or Hang, Mahogany, 5 x 7', 'category__990': 'Technology', 'product_id__990': 'TEC-PH-10002922', 'sub_category__990': 'Phones', 'product_name__990': 'ShoreTel ShorePhone IP 230 VoIP phone', 'category__991': 'Office Supplies', 'product_id__991': 'OFF-PA-10000501', 'sub_category__991': 'Paper', 'product_name__991': 'Petty Cash Envelope', 'category__992': 'Office Supplies', 'product_id__992': 'OFF-AP-10004980', 'sub_category__992': 'Appliances', 'product_name__992': "3M Replacement Filter for Office Air Cleaner for 20' x 33' Room", 'category__993': 'Technology', 'product_id__993': 'TEC-PH-10001750', 'sub_category__993': 'Phones', 'product_name__993': 'Samsung Rugby III', 'category__994': 'Office Supplies', 'product_id__994': 'OFF-BI-10003708', 'sub_category__994': 'Binders', 'product_name__994': 'Acco Four Pocket Poly Ring Binder with Label Holder, Smoke, 1"', 'category__995': 'Office Supplies', 'product_id__995': 'OFF-BI-10001191', 'sub_category__995': 'Binders', 'product_name__995': 'Canvas Sectional Post Binders', 'category__996': 'Office Supplies', 'product_id__996': 'OFF-PA-10003673', 'sub_category__996': 'Paper', 'product_name__996': 'Strathmore Photo Mount Cards', 'category__997': 'Office Supplies', 'product_id__997': 'OFF-PA-10001639', 'sub_category__997': 'Paper', 'product_name__997': 'Xerox 203', 'category__998': 'Technology', 'product_id__998': 'TEC-AC-10004975', 'sub_category__998': 'Accessories', 'product_name__998': 'Plantronics Audio 995 Wireless Stereo Headset', 'category__999': 'Office Supplies', 'product_id__999': 'OFF-BI-10004364', 'sub_category__999': 'Binders', 'product_name__999': 'Storex Dura Pro Binders'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+ etl.loading - ERROR - Error loading dim_product: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dim_product_pkey"
+DETAIL:  Key (product_id)=(FUR-CH-10001146) already exists.
+
+[SQL: INSERT INTO dim_product (product_id, category, sub_category, product_name) VALUES (%(product_id__0)s, %(category__0)s, %(sub_category__0)s, %(product_name__0)s), (%(product_id__1)s, %(category__1)s, %(sub_category__1)s, %(product_name__1)s), (%(produ ... 87290 characters truncated ... name__998)s), (%(product_id__999)s, %(category__999)s, %(sub_category__999)s, %(product_name__999)s)]
+[parameters: {'category__0': 'Furniture', 'product_id__0': 'FUR-BO-10001798', 'sub_category__0': 'Bookcases', 'product_name__0': 'Bush Somerset Collection Bookcase', 'category__1': 'Furniture', 'product_id__1': 'FUR-CH-10000454', 'sub_category__1': 'Chairs', 'product_name__1': 'Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back', 'category__2': 'Office Supplies', 'product_id__2': 'OFF-LA-10000240', 'sub_category__2': 'Labels', 'product_name__2': 'Self-Adhesive Address Labels for Typewriters by Universal', 'category__3': 'Furniture', 'product_id__3': 'FUR-TA-10000577', 'sub_category__3': 'Tables', 'product_name__3': 'Bretford CR4500 Series Slim Rectangular Table', 'category__4': 'Office Supplies', 'product_id__4': 'OFF-ST-10000760', 'sub_category__4': 'Storage', 'product_name__4': "Eldon Fold 'N Roll Cart System", 'category__5': 'Furniture', 'product_id__5': 'FUR-FU-10001487', 'sub_category__5': 'Furnishings', 'product_name__5': 'Eldon Expressions Wood and Plastic Desk Accessories, Cherry Wood', 'category__6': 'Office Supplies', 'product_id__6': 'OFF-AR-10002833', 'sub_category__6': 'Art', 'product_name__6': 'Newell 322', 'category__7': 'Technology', 'product_id__7': 'TEC-PH-10002275', 'sub_category__7': 'Phones', 'product_name__7': 'Mitel 5320 IP Phone VoIP phone', 'category__8': 'Office Supplies', 'product_id__8': 'OFF-BI-10003910', 'sub_category__8': 'Binders', 'product_name__8': 'DXL Angle-View Binders with Locking Rings by Samsill', 'category__9': 'Office Supplies', 'product_id__9': 'OFF-AP-10002892', 'sub_category__9': 'Appliances', 'product_name__9': 'Belkin F5C206VTEL 6 Outlet Surge', 'category__10': 'Furniture', 'product_id__10': 'FUR-TA-10001539', 'sub_category__10': 'Tables', 'product_name__10': 'Chromcraft Rectangular Conference Tables', 'category__11': 'Technology', 'product_id__11': 'TEC-PH-10002033', 'sub_category__11': 'Phones', 'product_name__11': 'Konftel 250 Conference\xa0phone\xa0- Charcoal black', 'category__12': 'Office Supplies', 'product_id__12': 'OFF-PA-10002365' ... 3900 parameters truncated ... 'sub_category__987': 'Art', 'product_name__987': 'Panasonic KP-150 Electric Pencil Sharpener', 'category__988': 'Office Supplies', 'product_id__988': 'OFF-BI-10002867', 'sub_category__988': 'Binders', 'product_name__988': 'GBC Recycled Regency Composition Covers', 'category__989': 'Furniture', 'product_id__989': 'FUR-FU-10003976', 'sub_category__989': 'Furnishings', 'product_name__989': 'DAX Executive Solid Wood Document Frame, Desktop or Hang, Mahogany, 5 x 7', 'category__990': 'Technology', 'product_id__990': 'TEC-PH-10002922', 'sub_category__990': 'Phones', 'product_name__990': 'ShoreTel ShorePhone IP 230 VoIP phone', 'category__991': 'Office Supplies', 'product_id__991': 'OFF-PA-10000501', 'sub_category__991': 'Paper', 'product_name__991': 'Petty Cash Envelope', 'category__992': 'Office Supplies', 'product_id__992': 'OFF-AP-10004980', 'sub_category__992': 'Appliances', 'product_name__992': "3M Replacement Filter for Office Air Cleaner for 20' x 33' Room", 'category__993': 'Technology', 'product_id__993': 'TEC-PH-10001750', 'sub_category__993': 'Phones', 'product_name__993': 'Samsung Rugby III', 'category__994': 'Office Supplies', 'product_id__994': 'OFF-BI-10003708', 'sub_category__994': 'Binders', 'product_name__994': 'Acco Four Pocket Poly Ring Binder with Label Holder, Smoke, 1"', 'category__995': 'Office Supplies', 'product_id__995': 'OFF-BI-10001191', 'sub_category__995': 'Binders', 'product_name__995': 'Canvas Sectional Post Binders', 'category__996': 'Office Supplies', 'product_id__996': 'OFF-PA-10003673', 'sub_category__996': 'Paper', 'product_name__996': 'Strathmore Photo Mount Cards', 'category__997': 'Office Supplies', 'product_id__997': 'OFF-PA-10001639', 'sub_category__997': 'Paper', 'product_name__997': 'Xerox 203', 'category__998': 'Technology', 'product_id__998': 'TEC-AC-10004975', 'sub_category__998': 'Accessories', 'product_name__998': 'Plantronics Audio 995 Wireless Stereo Headset', 'category__999': 'Office Supplies', 'product_id__999': 'OFF-BI-10004364', 'sub_category__999': 'Binders', 'product_name__999': 'Storex Dura Pro Binders'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+ etl.loading - INFO - Loading data into fact_sales
+ etl.loading - INFO - Loading data into fact_sales
+ etl.loading - INFO - Loading data into fact_sales
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - ETL Pipeline Scheduler starting
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Scheduling pipeline to run every 60 minutes
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Running pipeline immediately for initial load
+ __main__ - INFO - Starting ETL pipeline execution
+ __main__ - INFO - Starting ETL pipeline execution
+ __main__ - INFO - Starting ETL pipeline execution
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data ingestion process
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Starting data extraction from data/raw/train.csv
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Successfully extracted 9800 records
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_003232.csv
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_003232.csv
+ etl.ingestion - INFO - Raw data saved to data\raw\retail_sales_raw_20250512_003232.csv
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.ingestion - INFO - Data ingestion completed successfully
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data transformation workflow
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Starting data cleaning process
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 11 missing values
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - INFO - Found 0 duplicate records
+ etl.transforming - INFO - Data cleaning completed. Records: 9800 -> 9800
+ etl.transforming - INFO - Data cleaning completed. Records: 9800 -> 9800
+ etl.transforming - INFO - Data cleaning completed. Records: 9800 -> 9800
+ etl.transforming - INFO - Starting data transformation process
+ etl.transforming - INFO - Starting data transformation process
+ etl.transforming - INFO - Starting data transformation process
+ etl.transforming - INFO - Data transformation completed successfully
+ etl.transforming - INFO - Data transformation completed successfully
+ etl.transforming - INFO - Data transformation completed successfully
+ etl.transforming - INFO - Preparing dimensional data
+ etl.transforming - INFO - Preparing dimensional data
+ etl.transforming - INFO - Preparing dimensional data
+ etl.transforming - INFO - Dimensional data preparation completed successfully
+ etl.transforming - INFO - Dimensional data preparation completed successfully
+ etl.transforming - INFO - Dimensional data preparation completed successfully
+ etl.transforming - INFO - Transformed data saved to data\processed\retail_sales_transformed_20250512_003232.csv
+ etl.transforming - INFO - Transformed data saved to data\processed\retail_sales_transformed_20250512_003232.csv
+ etl.transforming - INFO - Transformed data saved to data\processed\retail_sales_transformed_20250512_003232.csv
+ etl.transforming - INFO - dim_customer saved to data\processed\dim_customer_20250512_003232.csv
+ etl.transforming - INFO - dim_customer saved to data\processed\dim_customer_20250512_003232.csv
+ etl.transforming - INFO - dim_customer saved to data\processed\dim_customer_20250512_003232.csv
+ etl.transforming - INFO - dim_product saved to data\processed\dim_product_20250512_003232.csv
+ etl.transforming - INFO - dim_product saved to data\processed\dim_product_20250512_003232.csv
+ etl.transforming - INFO - dim_product saved to data\processed\dim_product_20250512_003232.csv
+ etl.transforming - INFO - dim_date saved to data\processed\dim_date_20250512_003232.csv
+ etl.transforming - INFO - dim_date saved to data\processed\dim_date_20250512_003232.csv
+ etl.transforming - INFO - dim_date saved to data\processed\dim_date_20250512_003232.csv
+ etl.transforming - INFO - fact_sales saved to data\processed\fact_sales_20250512_003232.csv
+ etl.transforming - INFO - fact_sales saved to data\processed\fact_sales_20250512_003232.csv
+ etl.transforming - INFO - fact_sales saved to data\processed\fact_sales_20250512_003232.csv
+ etl.transforming - INFO - Data transformation workflow completed successfully
+ etl.transforming - INFO - Data transformation workflow completed successfully
+ etl.transforming - INFO - Data transformation workflow completed successfully
+ etl.loading - INFO - Starting data loading workflow
+ etl.loading - INFO - Starting data loading workflow
+ etl.loading - INFO - Starting data loading workflow
+ etl.loading - INFO - Creating database tables if they don't exist
+ etl.loading - INFO - Creating database tables if they don't exist
+ etl.loading - INFO - Creating database tables if they don't exist
+ etl.loading - INFO - Tables in database: ['dim_customer', 'fact_sales', 'dim_product', 'dim_date']
+ etl.loading - INFO - Tables in database: ['dim_customer', 'fact_sales', 'dim_product', 'dim_date']
+ etl.loading - INFO - Tables in database: ['dim_customer', 'fact_sales', 'dim_product', 'dim_date']
+ etl.loading - INFO - Loading data into dim_date
+ etl.loading - INFO - Loading data into dim_date
+ etl.loading - INFO - Loading data into dim_date
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ etl.loading - INFO - Loaded dim_date: 1431 inserted, 0 updated
+ etl.loading - INFO - Loaded dim_date: 1431 inserted, 0 updated
+ etl.loading - INFO - Loaded dim_date: 1431 inserted, 0 updated
+ etl.loading - INFO - Loading data into dim_customer
+ etl.loading - INFO - Loading data into dim_customer
+ etl.loading - INFO - Loading data into dim_customer
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ etl.loading - INFO - Loaded dim_customer: 4824 inserted, 0 updated
+ etl.loading - INFO - Loaded dim_customer: 4824 inserted, 0 updated
+ etl.loading - INFO - Loaded dim_customer: 4824 inserted, 0 updated
+ etl.loading - INFO - Loading data into dim_product
+ etl.loading - INFO - Loading data into dim_product
+ etl.loading - INFO - Loading data into dim_product
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ etl.loading - INFO - Loaded dim_product: 1893 inserted, 0 updated
+ etl.loading - INFO - Loaded dim_product: 1893 inserted, 0 updated
+ etl.loading - INFO - Loaded dim_product: 1893 inserted, 0 updated
+ etl.loading - INFO - Loading data into fact_sales
+ etl.loading - INFO - Loading data into fact_sales
+ etl.loading - INFO - Loading data into fact_sales
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Yielding database session
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ config.database - INFO - Database session closed
+ etl.loading - INFO - Loaded fact_sales: 9800 inserted
+ etl.loading - INFO - Loaded fact_sales: 9800 inserted
+ etl.loading - INFO - Loaded fact_sales: 9800 inserted
+ etl.loading - INFO - Data loading workflow completed successfully
+ etl.loading - INFO - Data loading workflow completed successfully
+ etl.loading - INFO - Data loading workflow completed successfully
+ __main__ - INFO - Pipeline executed successfully in 16.76 seconds
+ __main__ - INFO - Pipeline executed successfully in 16.76 seconds
+ __main__ - INFO - Pipeline executed successfully in 16.76 seconds
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - Pipeline scheduler stopped by user
+ __main__ - INFO - Pipeline scheduler stopped by user
