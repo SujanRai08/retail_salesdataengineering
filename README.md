@@ -82,6 +82,9 @@ The project uses a star schema with the following structure:
   - `dim_product`: Product catalog
   - `dim_date`: Date dimension for time-based analysis
 
+## data modelling images
+
+![Data Modelling Schema](images/data_modelling.png)
 ## Skills Demonstrated
 
 This project demonstrates the following data engineering skills:
@@ -104,3 +107,4 @@ Potential areas for expansion:
 - Add more advanced analytics (forecasting, etc.)
 - Set up CI/CD pipeline for deployment
 - Containerize with Docker
+
